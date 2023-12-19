@@ -1,0 +1,1195 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F7F7F8;
+}
+a {
+    text-decoration: none;
+
+}
+button {
+    border: none;
+    background-color: #fff;
+}
+ul {
+    list-style-type: none;
+
+}
+.container {
+    background-color: #F7F7F8;
+    margin: auto;
+    width: calc(100% - 324px);
+
+
+}
+/*.......................................................... general attribute ............................................................*/
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    padding: 30px 0;
+    font-size: 14px;
+
+
+}
+.header .list a {
+    color: #262626;
+}
+.header .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+
+
+}
+
+.header .home {
+    background-color: #F1F1F3;
+    padding: 14px 24px;
+    border-radius: 8px;
+
+}
+
+.header .logo img{
+    background-color: #FF9500;
+    border-radius: 8px;
+    width: 54px;
+    height: 54px;
+    align-items: center;
+}
+.header .row2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.header .auth {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.header .auth .login {
+    padding: 14px 34px;
+    background-color: #FF9500;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.header .auth .signup {
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+header .image-none img{
+    display: none;
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){
+    header .list {
+        display: none
+    }
+   header .image-none img {
+        display: block;
+    }
+    
+    header .media {
+        display: flex;
+        gap: 90px;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+/*...................................................header section.........................................................................*/
+.card .hero {
+    margin-top: 166px;
+    position: relative;
+}
+
+.card .hero .row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFD;
+    gap: 10px;
+    padding: 14px 15px 14px 10px;
+    border-radius: 11px;
+    border: 1px solid white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.card .hero .logo1 {
+    position: absolute;
+    left: 385px;
+    top: -30px;
+    width: 39px;
+    height: 43px;
+
+
+}
+
+.card .hero .icon {
+    background-color: #FFF4E5;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.card{
+    background-color: #F7F7F8;
+}
+
+.card .hero p {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card .hero .first-p {
+    font-size: 34px;
+    margin-top: 20px;
+
+}
+
+.card .hero .second-p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card .hero .row1 {
+    font-size: 30px;
+}
+
+.card .hero .row1 span {
+    color: #FF9500;
+}
+
+.card .auth1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+
+
+}
+
+.card .auth1 .explore-courses {
+    padding: 18px 24px;
+    background-color: #FF9500;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.card .auth1 .view-pricing {
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 18px 24px;
+    color: #262626;
+
+}
+
+.card .row3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #FCFCFD;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    overflow-x: auto;
+
+}
+
+.card .row3 img {
+    width: calc((100% - 324px) / 7);
+}
+
+.card .row3 .logo2 {
+    border-right: 1px dashed #F1F1F3;
+    padding: 30px;
+
+}
+
+.card .row3 .logo3 {
+    padding: 30px;
+    border-right: 1px dashed #F1F1F3;
+}
+
+.card .row3 .logo4 {
+    padding: 30px;
+    border-right: 1px dashed #F1F1F3;
+}
+
+.card .row3 .logo5 {
+    padding: 30px;
+    border-right: 1px dashed #F1F1F3;
+}
+
+.card .row3 .logo6 {
+    padding: 30px;
+    border-right: 1px dashed #F1F1F3;
+}
+
+.card .row3 .logo7 {
+    padding: 30px;
+    border-right: 1px dashed #F1F1F3;
+}
+
+.card .row3 .logo8 {
+    padding: 30px;
+    border-right: 1px dashed #F1F1F3;
+}
+
+.card .container img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card .image1 img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+/*............................................card section..................................................................................*/
+.benefits .benefits1 {
+    margin-top: 80px;
+    font-size: 48px;
+}
+
+.benefits .paragraph2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.benefits .paragraph2 p {
+    font-size: 18px;
+    color: #59595A;
+    width: 62%;
+}
+
+.benefits .paragraph2 span {
+    padding: 18px 24px;
+    background-color: #FCFCFD;
+    font-size: 18px;
+    color: #262626;
+    border-radius: 8px;
+}
+
+.benefits .cards .row11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefits .cards .row12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefits .cards h2 {
+    font-size: 24px;
+}
+
+.benefits .cards p {
+    font-size: 18px;
+}
+
+.benefits .cards .row11 .number1 .centre img {
+    width: 60px;
+    text-align: center;
+
+
+
+}
+
+.benefits .centre {
+    text-align: right;
+    width: 95%;
+}
+
+.benefits .cards .row11 .number1 {
+    background-color: white;
+    width: calc(calc(100% - 40px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    height: 350px;
+}
+
+.benefits .centre2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.benefits .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.benefits .cards .row11 .number1 h2 {
+    font-size: 24px;
+    color: #333;
+
+}
+
+.benefits .cards .row11 .number1 p {
+    font-size: 15px;
+    color: #4C4C4D;
+}
+
+.benefits .cards .row11 .number3 h2 {
+    font-size: 24px;
+    color: #333;
+
+}
+
+.benefits .cards .row11 .number3 p {
+    font-size: 15px;
+    color: #4C4C4D;
+}
+
+.benefits .cards .row12 .number4 h2 {
+    font-size: 24px;
+    color: #333;
+
+}
+
+.benefits .cards .row12 .number4 p {
+    font-size: 15px;
+    color: #4C4C4D;
+}
+
+.benefits .cards .row12 .number5 h2 {
+    font-size: 24px;
+    color: #333;
+
+}
+
+.benefits .cards .row12 .number5 p {
+    font-size: 15px;
+    color: #4C4C4D;
+}
+
+.benefits .cards .row12 .number6 h2 {
+    font-size: 24px;
+    color: #333;
+
+}
+
+.benefits .cards .row12 .number6 p {
+    font-size: 15px;
+    color: #4C4C4D;
+}
+
+.benefits .cards .row11 .number2 {
+    background-color: white;
+    width: calc(calc(100% - 40px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    height: 350px;
+
+}
+
+.benefits .cards .row11 .number2 .centre img {
+    width: 60px;
+    text-align: center;
+
+
+
+}
+
+.benefits .cards .row11 .number3 .centre img {
+    width: 60px;
+    text-align: center;
+
+
+
+}
+
+.benefits .cards .row12 .number4 .centre img {
+    width: 60px;
+    text-align: center;
+}
+
+.benefits .cards .row12 .number5 .centre img {
+    width: 60px;
+    text-align: center;
+}
+
+.benefits .cards .row12 .number6 .centre img {
+    width: 60px;
+    text-align: center;
+}
+
+.benefits .cards .row11 .number2 h2 {
+    font-size: 24px;
+    color: #333;
+
+}
+
+.benefits .cards .row11 .number2 p {
+    font-size: 15px;
+    color: #4C4C4D;
+}
+
+.benefits .cards .row11 .number3 img {
+    width: 100px;
+
+}
+
+.benefits .cards .row11 .number3 {
+    background-color: white;
+    width: calc(calc(100% - 40px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    height: 350px;
+}
+
+.benefits .cards .row12 .number4 img {
+    width: 100px;
+
+}
+
+.benefits .cards .row12 .number4 {
+    background-color: white;
+    width: calc(calc(100% - 40px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    height: 350px;
+}
+
+.benefits .cards .row12 .number5 img {
+    width: 100px;
+}
+
+.benefits .cards .row12 .number5 {
+    background-color: white;
+    width: calc(calc(100% - 40px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    height: 350px;
+}
+
+.benefits .cards .row12 .number6 img {
+    width: 100px;
+}
+
+.benefits .cards .row12 .number6 {
+    background-color: white;
+    width: calc(calc(100% - 40px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    height: 350px;
+}
+
+.benefits .cards .button {
+    padding: 20px;
+    width: 100px;
+}
+
+.benefits .centre1 {
+    text-align: right;
+    width: 100%;
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+/*......................................benefits section...................................................................................*/
+.our-courses .paragraph2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+.our-courses .paragraph2 p {
+    font-size: 18px;
+    color: #59595A;
+    width: 62%;
+}
+.our-courses .benefits1 {
+    margin-top: 80px;
+    font-size: 48px;
+}
+.our-courses .paragraph2 span {
+    padding: 18px 24px;
+    background-color: #FCFCFD;
+    font-size: 18px;
+    color: #262626;
+    border-radius: 8px;
+}
+.our-courses .row21 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+
+}
+.our-courses .colum123{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.our-courses .row21 .row211 {
+    width: calc(calc(100% - 30px) / 2);
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-courses .row21 .row212 {
+    width: calc(calc(100% - 30px) / 2);
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.our-courses .row22 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.our-courses .row22 .row221 {
+    width: calc(calc(100% - 30px) / 2);
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-courses .row22 .row222 {
+    width: calc(calc(100% - 30px) / 2);
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-courses .row23 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.our-courses .row23 .row231 {
+    width: calc(calc(100% - 30px) / 2);
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-courses .row23 .row232 {
+    width: calc(calc(100% - 30px) / 2);
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-courses .name1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-courses .name11 {
+    display: flex;
+    gap: 10px;
+}
+
+.our-courses .name111 {
+    padding: 10px 16px;
+    border: 1px solid #F1F1F3;
+    font-size: 18px;
+    color: #4C4C4D;
+    border-radius: 8px;
+
+}
+
+.our-courses .name112 {
+    padding: 10px 16px;
+    border: 1px solid #F1F1F3;
+    font-size: 18px;
+    color: #4C4C4D;
+    border-radius: 8px;
+
+}
+
+.our-courses .name113 {
+    padding: 10px 16px;
+    font-size: 20px;
+
+}
+
+.our-courses .head {
+    font-size: 24px;
+    color: #262626;
+}
+
+.our-courses .paragraph3 {
+    font-size: 17px;
+    color: #4C4C4D;
+}
+
+.our-courses .register1 {
+    background-color: #F7F7F8;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    color: #262626;
+    padding: 8px 38%;
+    margin: auto;
+
+}
+
+.our-courses .anas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+/*............................................our courses section.......................................................................*/
+.our-testimonials .benefits1 {
+    margin-top: 80px;
+    font-size: 48px;
+}
+.our-testimonials .paragraph2 p {
+    font-size: 18px;
+    color: #59595A;
+    width: 62%
+}
+.our-testimonials .paragraph2 span {
+    padding: 18px 24px;
+    background-color: #FCFCFD;
+    font-size: 18px;
+    color: #262626;
+    border-radius: 8px;
+}
+.our-testimonials .paragraph2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+.our-testimonials .person11 {
+
+    display: flex;
+
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.our-testimonials .person22 {
+
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.our-testimonials .person11 .person1 {
+    width: calc(calc(100% - 30px)/2);
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.our-testimonials .person11 .person2 {
+    width: calc(calc(100% - 30px)/2);
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-testimonials .person22 .person3 {
+    width: calc(calc(100% - 30px)/2);
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-testimonials .person22 .person4 {
+    width: calc(calc(100% - 30px)/2);
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-testimonials .picture {
+    width: 60px;
+    height: 60px;
+}
+
+.our-testimonials .large {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCFCFD;
+    padding: 30px 50px;
+    width: 100%;
+
+}
+
+.our-testimonials .small {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.our-testimonials .paragraph4 {
+    padding: 50px;
+    font-size: 18px;
+    color: #4C4C4D;
+}
+
+.our-testimonials .sss {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-testimonials .details {
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    padding: 18px 24px;
+    background-color: #F7F7F8;
+}
+
+.our-testimonials .colum {
+    margin-bottom: 80px;
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+/*.........................................our testimonials section.........................................................................*/
+.our-pricing .benefits1 {
+    margin-top: 80px;
+    font-size: 48px;
+}
+.our-pricing .paragraph2 p {
+    font-size: 18px;
+    color: #59595A;
+    width: 62%
+}
+.our-pricing .paragraph2 span {
+    padding: 18px 24px;
+    background-color: #FCFCFD;
+    font-size: 18px;
+    color: #262626;
+    border-radius: 8px;
+}
+.our-pricing .paragraph2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.our-pricing .auth2 {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 12px
+}
+
+.our-pricing .auth2 .month button {
+    padding: 14px 30px;
+    background-color: #FF9500;
+    border-radius: 6px;
+    align-items: center;
+    color: #FFF;
+
+
+}
+
+.our-pricing .auth2 .year button {
+    padding: 14px 30px;
+    color: #4C4C4D;
+}
+
+
+
+.our-pricing .pricing {
+    display: flex;
+    background-color: white;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.our-pricing .pricing .start {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFCFD;
+    width: calc(calc(100% - 30px)/2);
+    padding: 50px 30px 30px 30px;
+    text-align: center;
+
+}
+
+.our-pricing .pricing .end {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFCFD;
+    width: calc(calc(100% - 30px)/2);
+    padding: 50px 30px 30px 30px;
+    text-align: center;
+}
+
+.our-pricing .span1 {
+    font-size: 22px;
+    color: #262626;
+    text-align: center;
+    border: 1px solid #FFEACC;
+    background-color: #FFF9F0;
+}
+
+.our-pricing .picture1 img {
+    width: 109px;
+    height: 58px;
+    text-align: center;
+
+}
+
+.our-pricing .picture2 img {
+    width: 157px;
+    height: 58px;
+}
+
+.our-pricing .images {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.our-pricing .picture3 img {
+    width: 73px;
+    height: 15px;
+}
+
+.our-pricing .span2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.our-pricing .row4 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 14px;
+    color: #4C4C4D;
+}
+
+.our-pricing .icon1 {
+    width: 32px;
+    height: 32px;
+
+}
+
+.our-pricing .link1 {
+    padding: 20px 24px;
+    background-color: #FF9500;
+    border-radius: 0 0 8px 8px;
+
+
+}
+
+.our-pricing .link1 a {
+    color: #FFF;
+}
+
+.our-pricing .features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 30px;
+
+}
+
+.our-pricing .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    background-color: #fff;
+}
+
+.our-pricing .features span {
+    font-size: 13px;
+}
+
+.our-pricing .colum1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+/*..........................................our pricing section...........................................................................*/
+
+.footer-section .footer1 {
+    background-color: #FFF;
+    margin-top: 100px;
+    padding: 100px 162px 30px 162px;
+    display: flex;
+    gap: 30px;
+
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    ;
+}
+
+.footer-section .s1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.footer-section .s1 span {
+    color: #262626;
+    font-size: 18px;
+}
+
+.footer-section .s11 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-section .details1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-section .s2 {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 15%;
+}
+
+.footer-section .spans {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-section .s3 {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 15%;
+}
+
+.footer-section .s4 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 15%;
+
+}
+
+.footer-section .s4 img {
+    padding: 14px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+
+}
+
+.footer-section .socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+footer h2 {
+    font-size: 20px;
+    color: #262626;
+}
+
+footer span {
+    color: #59595A;
+    font-size: 18px;
+}
+
+.footer-section .end-project p {
+    background-color: white;
+    margin: auto;
+    width: calc(100% - 324px);
+    text-align: center;
+    font-size: 18px;
+    color: #656567;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-section .aa {
+    height: 1px;
+    margin: auto;
+    width: calc(100% - 324px);
+    margin-top: 50px;
+    color: #F1F1F3;
+}
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+/*.............................................footer sectoin.............................................................................*/
