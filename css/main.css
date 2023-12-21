@@ -27,6 +27,36 @@ ul {
 
 
 }
+@media screen and (max-width: 1400px){
+    .container {
+      
+        max-width: 1320px;
+  }
+}
+@media screen and (max-width: 1200px){
+    .container {
+      
+        max-width: 1140px;
+  }
+}
+@media screen and (max-width: 992px){
+    .container {
+      
+        max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px){
+    .container {
+      
+        max-width: 720px;
+  }
+}
+@media screen and (max-width: 576px){
+    .container {
+      
+        max-width: 540px;
+  }
+}
 /*.......................................................... general attribute ............................................................*/
 .header {
     position: sticky;
@@ -1359,9 +1389,10 @@ header .image-none img{
 .footer-section .footer1 {
     background-color: #FFF;
     margin-top: 100px;
-    padding: 100px 162px 30px 162px;
+    padding:5%;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 
 }
 
@@ -1375,7 +1406,7 @@ footer img {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .footer-section .s1 span {
@@ -1395,12 +1426,7 @@ footer img {
     gap: 20px;
 }
 
-.footer-section .s2 {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    width: 15%;
-}
+
 
 .footer-section .spans {
     display: flex;
@@ -1408,20 +1434,9 @@ footer img {
     gap: 8px;
 }
 
-.footer-section .s3 {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    width: 15%;
-}
 
-.footer-section .s4 {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    width: 15%;
 
-}
+
 
 .footer-section .s4 img {
     padding: 14px;
