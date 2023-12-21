@@ -139,6 +139,7 @@ header .image-none img{
     border: 1px solid white;
     width: fit-content;
     margin: 0 auto;
+    font-size: 2rem;
 }
 
 .card .hero .logo1 {
@@ -171,20 +172,15 @@ header .image-none img{
 
 
 .card .hero .first-p {
-    font-size: 34px;
+    font-size: 2rem;
     margin-top: 20px;
 
 }
 
 .card .hero .second-p {
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 10px;
 }
-
-.card .hero .row1 {
-    font-size: 30px;
-}
-
 .card .hero .row1 span {
     color: #FF9500;
 }
@@ -278,23 +274,70 @@ header .image-none img{
     height: 100%;
 }
 @media screen and (max-width: 1400px){
-
+    .card .hero .logo1 { 
+        left: 300px;
+    }
+    .card .row3 img {
+        width: calc((100%) /6 );
+    }
 }
 @media screen and (max-width: 1200px){
-
+    .card .hero .logo1 { 
+        left: 200px;
+       
+    }
+    .card .row3 img {
+        width: calc((100%) / 5);
+    }
 }
 @media screen and (max-width: 992px){
-
+    .card .hero .logo1 { 
+        left: 255px;
+    }
+    .card .hero .row1{
+        font-size: 1rem;
+    }
+    .card .hero .first-p {
+        font-size: 1.2rem;
+      }
+      .card .hero .second-p {
+        font-size: 0.8rem;
+    }
+    .card .row3 img {
+        width: calc((100%) /4 );
+    }
+    
 }
 @media screen and (max-width: 768px){
-
+    .card .hero .logo1 { 
+        left: 144px;
+    }
+    .card .row3 img {
+        width: calc((100%)/ 3);
+    }
+  
 }
 @media screen and (max-width: 576px){
-
+    .card .hero .logo1 { 
+        left: 115px;
+    }
+    .card .hero .row1{
+        font-size: 0.5rem;
+        
+    }
+    .card .hero .first-p {
+        font-size: 0.8rem;
+     }
+     .card .hero .second-p {
+        font-size: 0.5rem;
+    }
+    .card .row3 img {
+        width: calc((100%) / 2);
+    }
 }
 /*............................................card section..................................................................................*/
 .benefits .benefits1 {
-    margin-top: 80px;
+    margin-top: 2rem;
     font-size: 48px;
 }
 
@@ -315,7 +358,7 @@ header .image-none img{
 .benefits .paragraph2 span {
     padding: 18px 24px;
     background-color: #FCFCFD;
-    font-size: 18px;
+    font-size: 1rem;
     color: #262626;
     border-radius: 8px;
 }
@@ -364,7 +407,7 @@ header .image-none img{
     flex-direction: column;
     gap: 30px;
     padding: 30px;
-    height: 350px;
+    height: 100%;
 }
 
 .benefits .centre2 {
@@ -378,6 +421,7 @@ header .image-none img{
     flex-direction: column;
     gap: 30px;
 }
+
 
 .benefits .cards .row11 .number1 h2 {
     font-size: 24px;
@@ -441,7 +485,7 @@ header .image-none img{
     flex-direction: column;
     gap: 30px;
     padding: 30px;
-    height: 350px;
+    height: 100%;
 
 }
 
@@ -499,7 +543,7 @@ header .image-none img{
     flex-direction: column;
     gap: 30px;
     padding: 30px;
-    height: 350px;
+    height: 100%;
 }
 
 .benefits .cards .row12 .number4 img {
@@ -514,7 +558,7 @@ header .image-none img{
     flex-direction: column;
     gap: 30px;
     padding: 30px;
-    height: 350px;
+    height: 100%;
 }
 
 .benefits .cards .row12 .number5 img {
@@ -528,7 +572,7 @@ header .image-none img{
     flex-direction: column;
     gap: 30px;
     padding: 30px;
-    height: 350px;
+    height: 100%;
 }
 
 .benefits .cards .row12 .number6 img {
@@ -542,7 +586,7 @@ header .image-none img{
     flex-direction: column;
     gap: 30px;
     padding: 30px;
-    height: 350px;
+    height: 100%;
 }
 
 .benefits .cards .button {
@@ -558,16 +602,75 @@ header .image-none img{
 
 }
 @media screen and (max-width: 1200px){
-
+    .benefits .benefits1 {
+         font-size: 1.5rem;
+    }
+    .benefits .paragraph2 p {
+        font-size: 1rem;
+    }
+    .benefits .paragraph2 span {
+        font-size: 1rem;
+    }
+        
 }
 @media screen and (max-width: 992px){
-
+    .benefits .benefits1 {
+        font-size: 1rem;
+    }
+    .benefits .paragraph2 p {
+        font-size: 0.8rem;
+    }
+    .benefits .paragraph2 span {
+        font-size: 0.8rem;
+    }
+    .benefits .cards .row11 .number1{
+    width: calc(calc(100% - 40px) / 2);
+    }
+    .benefits .cards .row11 .number2{
+        width: calc(calc(100% - 40px) / 2);
+        }
+        .benefits .cards .row11 .number3{
+            width: calc(calc(100% - 40px) / 2);
+            }
+            .benefits .cards .row12 .number4{
+                width: calc(calc(100% - 40px) / 2);
+                }
+                .benefits .cards .row12 .number5{
+                    width: calc(calc(100% - 40px) / 2);
+                    }
+                    .benefits .cards .row12 .number6{
+                        width: calc(calc(100% - 40px) / 2);
+                        }
 }
 @media screen and (max-width: 768px){
 
 }
 @media screen and (max-width: 576px){
-
+   
+    .benefits .paragraph2 p {
+        font-size: 0.7rem;
+    }
+    .benefits .paragraph2 span {
+        font-size: 0.7rem;
+    }
+    .benefits .cards .row11 .number1{
+        width: calc(calc(100% - 40px) / 1);
+        }
+        .benefits .cards .row11 .number2{
+            width: calc(calc(100% - 40px) / 1);
+            }
+            .benefits .cards .row11 .number3{
+                width: calc(calc(100% - 40px) / 1);
+                }
+                .benefits .cards .row12 .number4{
+                    width: calc(calc(100% - 40px) / 1);
+                    }
+                    .benefits .cards .row12 .number5{
+                        width: calc(calc(100% - 40px) / 1);
+                        }
+                        .benefits .cards .row12 .number6{
+                            width: calc(calc(100% - 40px) / 1);
+                            }
 }
 /*......................................benefits section...................................................................................*/
 .our-courses .paragraph2{
@@ -692,7 +795,7 @@ header .image-none img{
 .our-courses .name111 {
     padding: 10px 16px;
     border: 1px solid #F1F1F3;
-    font-size: 18px;
+    font-size: 1rem;
     color: #4C4C4D;
     border-radius: 8px;
 
@@ -701,7 +804,7 @@ header .image-none img{
 .our-courses .name112 {
     padding: 10px 16px;
     border: 1px solid #F1F1F3;
-    font-size: 18px;
+    font-size: 1rem;
     color: #4C4C4D;
     border-radius: 8px;
 
@@ -709,17 +812,17 @@ header .image-none img{
 
 .our-courses .name113 {
     padding: 10px 16px;
-    font-size: 20px;
+    font-size: 1.2rem;
 
 }
 
 .our-courses .head {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #262626;
 }
 
 .our-courses .paragraph3 {
-    font-size: 17px;
+    font-size: 1rem;
     color: #4C4C4D;
 }
 
@@ -730,6 +833,7 @@ header .image-none img{
     color: #262626;
     padding: 8px 38%;
     margin: auto;
+    font-size: 1.2rem;
 
 }
 
@@ -738,20 +842,104 @@ header .image-none img{
     flex-direction: column;
     gap: 10px;
 }
-@media screen and (max-width: 1400px){
-
+.our-courses img{
+    width: 100%;
 }
-@media screen and (max-width: 1200px){
 
+@media screen and (max-width: 1200px){
+    .our-courses .benefits1 {
+        font-size: 1.5rem;
+   }
+   .our-courses .paragraph2 p {
+       font-size: 1rem;
+   }
+   .our-courses .paragraph2 span {
+       font-size: 1rem;
+   }
+  
 }
 @media screen and (max-width: 992px){
-
+    .our-courses .benefits1 {
+        font-size: 1rem;
+    }
+    .our-courses .paragraph2 p {
+        font-size: 0.8rem;
+    }
+    .our-courses .paragraph2 span {
+        font-size: 0.8rem;
+    }
+    .our-courses .row21 .row211{
+        width: calc(calc(100% - 30px) / 1);
+       }
+       .our-courses .row21 .row212{
+        width: calc(calc(100% - 30px) / 1);
+       }
+       .our-courses .row22 .row221{
+        width: calc(calc(100% - 30px) / 1);
+       }
+       .our-courses .row22 .row222{
+        width: calc(calc(100% - 30px) / 1);
+       }
+       .our-courses .row23 .row231{
+        width: calc(calc(100% - 30px) / 1);
+       }
+       .our-courses .row23 .row232{
+        width: calc(calc(100% - 30px) / 1);
+       }
+       .our-courses .head {
+        font-size: 1rem;
+        color: #262626;
+    }
+    
+    .our-courses .paragraph3 {
+        font-size: 0.7rem;
+    }
+    .our-courses .name111{
+        font-size:0.7rem ;
+    }
+    .our-courses .name112{
+        font-size:0.7rem ;
+    }
+    .our-courses .name113 {
+        font-size: 0.9rem;
+    
+    }
+    .our-courses .register1{
+        font-size: 0.8rem;
+    }
 }
-@media screen and (max-width: 768px){
 
-}
 @media screen and (max-width: 576px){
-
+    .our-courses .paragraph2 p {
+        font-size: 0.7rem;
+    }
+    .our-courses .paragraph2 span {
+        font-size: 0.7rem;
+    }
+    .our-courses .head {
+        font-size: 0.7rem;
+        color: #262626;
+    }
+    
+    .our-courses .paragraph3 {
+        font-size: 0.5rem;
+    }
+    .our-courses .name111{
+        font-size:0.5rem ;
+    }
+    .our-courses .name112{
+        font-size:0.5rem ;
+    }
+    .our-courses .name113 {
+        font-size: 0.7rem;
+    
+    }
+    .our-courses .name11{
+        gap:0;
+    }
+    .our-courses .register1{
+        font-size: 0.6rem;
+    }
 }
 /*............................................our courses section.......................................................................*/
 .our-testimonials .benefits1 {
@@ -776,6 +964,9 @@ header .image-none img{
     margin-top: 20px;
     margin-bottom: 80px;
     flex-wrap: wrap;
+}
+.our-testimonials .small span{
+    font-size: 1rem;
 }
 .our-testimonials .person11 {
 
@@ -849,7 +1040,7 @@ header .image-none img{
 
 .our-testimonials .paragraph4 {
     padding: 50px;
-    font-size: 18px;
+    font-size:1rem;
     color: #4C4C4D;
 }
 
@@ -864,25 +1055,75 @@ header .image-none img{
     border: 1px solid #F1F1F3;
     padding: 18px 24px;
     background-color: #F7F7F8;
+    font-size: 1rem;
 }
 
 .our-testimonials .colum {
     margin-bottom: 80px;
 }
-@media screen and (max-width: 1400px){
+
+@media screen and (max-width: 1200px){
+    .our-testimonials .benefits1 {
+        font-size: 1.5rem;
+   }
+   .our-testimonials .paragraph2 p {
+       font-size: 1rem;
+   }
+   .our-testimonials .paragraph2 span {
+       font-size: 1rem;
+   }
+   .our-testimonials .person11 .person1 {
+    width: calc(calc(100% - 30px)/1);
+   
+
 
 }
-@media screen and (max-width: 1200px){
+
+.our-testimonials .person11 .person2 {
+    width: calc(calc(100% - 30px)/1);
+  
+}
+
+.our-testimonials .person22 .person3 {
+    width: calc(calc(100% - 30px)/1);
+    
+}
+
+.our-testimonials .person22 .person4 {
+    width: calc(calc(100% - 30px)/1);
+    
+}
 
 }
 @media screen and (max-width: 992px){
-
+    .our-testimonials .benefits1 {
+        font-size: 1rem;
+    }
+    .our-testimonials .paragraph2 p {
+        font-size: 0.8rem;
+    }
+    .our-testimonials .paragraph2 span {
+        font-size: 0.8rem;
+    }
 }
 @media screen and (max-width: 768px){
-
+    .our-testimonials .paragraph4{
+        font-size: 0.7rem;
+    }
+    .our-testimonials .details{
+        font-size: 0.7rem;
+    }
+    .our-testimonials .small span{
+        font-size: 0.7rem;
+    }
 }
 @media screen and (max-width: 576px){
-
+    .our-testimonials .paragraph2 p {
+        font-size: 0.7rem;
+    }
+    .our-testimonials .paragraph2 span {
+        font-size: 0.7rem;
+    }
 }
 /*.........................................our testimonials section.........................................................................*/
 .our-pricing .benefits1 {
@@ -913,7 +1154,7 @@ header .image-none img{
     display: flex;
     background-color: #FFFFFF;
     border-radius: 8px;
-    padding: 12px
+    padding: 12px;
 }
 
 .our-pricing .auth2 .month button {
@@ -922,13 +1163,14 @@ header .image-none img{
     border-radius: 6px;
     align-items: center;
     color: #FFF;
-
+    font-size:1rem;
 
 }
 
 .our-pricing .auth2 .year button {
     padding: 14px 30px;
     color: #4C4C4D;
+    font-size: 1rem;
 }
 
 
@@ -1042,7 +1284,7 @@ header .image-none img{
 }
 
 .our-pricing .features span {
-    font-size: 13px;
+    font-size: 1rem;
 }
 
 .our-pricing .colum1 {
@@ -1054,16 +1296,63 @@ header .image-none img{
 
 }
 @media screen and (max-width: 1200px){
-
+    .our-pricing .benefits1 {
+        font-size: 1.5rem;
+   }
+   .our-pricing .paragraph2 p {
+       font-size: 1rem;
+   }
 }
 @media screen and (max-width: 992px){
+    .our-pricing .benefits1 {
+        font-size: 1rem;
+    }
+    .our-pricing .paragraph2 p {
+        font-size: 0.8rem;
+    }
+    .our-pricing .auth2 .month button {
+    
+        font-size:0.7rem;
+    
+    }
+    
+    .our-pricing .auth2 .year button {
+ 
+        font-size: 0.7rem;
+    }
+    .our-pricing .pricing .start{
+        width: calc(calc(100% - 30px)/1);
+    }
+    .our-pricing .pricing .end{
+        width: calc(calc(100% - 30px)/1);
+    }
 
 }
 @media screen and (max-width: 768px){
+    .our-pricing .features span {
+        font-size: 0.7rem;
+    }
+    
 
+    
 }
 @media screen and (max-width: 576px){
-
+    .our-pricing .paragraph2 p {
+        font-size: 0.7rem;
+    }
+    .our-pricing .auth2 .month button {
+    
+        font-size:0.5rem;
+    
+    }
+    
+    .our-pricing .auth2 .year button {
+ 
+        font-size: 0.5rem;
+    }
+    .our-pricing .features span {
+        font-size: 0.4rem;
+    }
 }
 /*..........................................our pricing section...........................................................................*/
 
